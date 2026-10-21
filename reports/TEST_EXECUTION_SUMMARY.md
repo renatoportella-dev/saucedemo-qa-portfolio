@@ -1,13 +1,13 @@
 # QA Test Execution Summary — SauceDemo
 
 **Portfolio owner:** Renato Portella  
-**Execution cycle:** Not started  
+**Manual execution cycle:** Not started  
 **Execution date:** Not recorded  
 **Environment:** Not recorded  
 **Source:** `manual/TEST_CASES.md`  
 **Evidence:** Not yet linked
 
-## Current verified status
+## Manual testing — current verified status
 
 | Metric | Count |
 | --- | ---: |
@@ -20,6 +20,10 @@
 | Confirmed defects | 0 |
 
 **Interpretation:** Designed cases exist, but no run results have been recorded in this repository. The number of confirmed defects is **not** a claim that the application is bug-free.
+
+## Automated testing — verified separately
+
+An independent Playwright GitHub Actions run on **October 21, 2026** completed with **6 passed, 0 failed** in headless Chromium. See the [CI execution report](AUTOMATION_EXECUTION_2026-10-21.md) and [official run details](https://github.com/renatoportella-dev/saucedemo-qa-portfolio/actions/runs/39694572368). These automated results are **not counted** as executions of the 20 manual scenarios above.
 
 ## Execution log
 
@@ -41,4 +45,4 @@ Not yet documented. Record observed behavior here, clearly separating reproducti
 1. Run login and cart tests first.
 2. Update test statuses with date, environment, and evidence.
 3. Create separate defect reports for reproducible failures.
-4. Attach CI execution artifacts after automated tests are run.
+4. Reference the successful Playwright CI run separately when describing automated coverage.
