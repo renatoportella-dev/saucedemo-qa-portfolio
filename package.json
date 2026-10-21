@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-qa-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational QA portfolio for SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
