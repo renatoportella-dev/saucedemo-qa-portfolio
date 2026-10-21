@@ -19,7 +19,7 @@ An independent, educational software quality assurance portfolio demonstrating s
 | Test strategy | [Test plan](docs/TEST_PLAN.md) | Scope, risks, environment, process and exit criteria |
 | Manual QA | [20 manual test cases](manual/TEST_CASES.md) | Valid and invalid login, sorting, cart, checkout |
 | Defect tracking | [Bug report template](bugs/BUG_REPORT_TEMPLATE.md) | Reproducibility, severity, expected vs. actual, evidence |
-| Test reporting | [Execution summary](reports/TEST_EXECUTION_SUMMARY.md) | Transparent execution metrics and constraints |
+| Test reporting | [Manual execution summary](reports/TEST_EXECUTION_SUMMARY.md) · [Verified automation report](reports/AUTOMATION_EXECUTION_2026-10-21.md) | Transparent outcomes and CI evidence |
 | Browser automation | [Playwright tests](tests/saucedemo.spec.js) · [Instructions](automation/README.md) | Six coded checks; artifacts and traces on failure |
 | API testing | [API practice](api/README.md) | HTTP response validation with a separate public demo API |
 | SQL | [PostgreSQL exercise](sql/QA_VALIDATION_EXERCISES.sql) | Queries for validating fictional orders |
@@ -34,6 +34,8 @@ An independent, educational software quality assurance portfolio demonstrating s
 
 The repository contains six browser tests and a GitHub Actions workflow configured to run them in Chromium on pushes, pull requests and manual dispatch.
 
+**Verified CI execution (October 21, 2026): 6 passed · 0 failed · 4.3 seconds.** [View the successful workflow run](https://github.com/renatoportella-dev/saucedemo-qa-portfolio/actions/runs/39694572368) or [read the execution report](reports/AUTOMATION_EXECUTION_2026-10-21.md). This result concerns the six automated checks only; the 20 manual cases have not been executed.
+
 ```bash
 npm install
 npx playwright install chromium
@@ -42,7 +44,7 @@ npm test
 
 Runs: [GitHub Actions — Playwright QA Tests](https://github.com/renatoportella-dev/saucedemo-qa-portfolio/actions/workflows/playwright.yml)
 
-**Do not assume automated tests have passed until the workflow shows a completed result.** GitHub Actions reports and failure evidence are generated during CI execution.
+GitHub Actions reports and failure evidence are generated during CI execution. Results are specific to each individual run and can change on future builds.
 
 ## Skills practiced
 
@@ -64,7 +66,7 @@ Runs: [GitHub Actions — Playwright QA Tests](https://github.com/renatoportella
 - [x] GitHub Actions configuration
 - [x] API, SQL, and AI evaluation practice materials
 - [ ] Record real manual execution and link screenshots
-- [ ] Review completed automation workflow outcome and investigate failures
+- [x] Verify successful Playwright GitHub Actions run and publish execution evidence
 - [ ] Submit confirmed bug reports only after reproduction
 - [ ] Add completed API/SQL/AI execution evidence
 
