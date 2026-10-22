@@ -5,7 +5,7 @@
 **Application:** https://www.saucedemo.com/  
 **Environment:** Desktop web browser; OS and exact browser version not recorded  
 **Source of historical results:** [Manual session records](../manual/SESSION_2026-10-21.md) and recovered screenshot archive  
-**Image availability:** 28 original PNGs recovered in a separate ZIP, **not yet attached as binary files in GitHub**.
+**Image availability:** All 28 PNG screenshots are [published in GitHub](../evidence/capturas/) and linked in the [screenshot index](../evidence/SCREENSHOT_INDEX.md).
 
 ## Historical manual testing — restored results
 
@@ -56,7 +56,7 @@ An absent image in a cart screenshot and subjective performance impressions rema
 
 ## Remaining documentation tasks
 
-1. Upload original screenshot PNGs from the recovered ZIP into `evidence/capturas/` and replace filenames with working source links.
+1. **Completed:** All 28 original PNGs are published under `evidence/capturas/` and linked in reports.
 2. Reconcile individual historical screenshots to the later 20 formal test-case IDs where preconditions match.
 3. Preserve separate results for the automated CI suite.
 4. File standalone defect reports only when reproduction details justify that label.

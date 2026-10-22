@@ -1,9 +1,9 @@
-# SauceDemo screenshots — upload destination
+# SauceDemo screenshots — 28 originals published
 
-This folder is prepared for **28 recovered original PNG screenshots** from the October 21, 2026 manual QA session.
+The **28 original PNG screenshots** from the October 21, 2026 manual QA session are now stored in this directory with their original filenames.
 
-The binary screenshots themselves **have not been uploaded to GitHub yet**. The portfolio owner can extract the recovered evidence ZIP and, on this folder's GitHub page, select **Add file → Upload files** and select all 28 PNGs from the extracted `capturas` directory.
+**No further upload is needed.**
 
-Once the PNGs are present, update [the evidence index](../SCREENSHOT_INDEX.md) to point to the real files and replace screenshots referenced by filename only in the [manual session report](../../manual/SESSION_2026-10-21.md).
+See the [full screenshot index with direct image links](../SCREENSHOT_INDEX.md), the [10 historical manual scenarios](../../manual/SESSION_2026-10-21.md), and the [demo-account findings](../../bugs/OBSERVED_DEMO_BEHAVIORS_2026-10-21.md).
 
-Do not upload screenshots containing sensitive information, passwords or real customer details. The observed demo login password is publicly displayed by SauceDemo and is not private.
+These 28 images document one exploratory manual session, not 28 separate test executions. Anomalies associated with demo accounts may be intentionally built into SauceDemo.

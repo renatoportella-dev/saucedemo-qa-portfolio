@@ -12,7 +12,7 @@ SauceDemo intentionally offers demo users with different, sometimes faulty behav
 - **Observed:** Different inventory items (Backpack, Bike Light, shirts and jacket) display the same dog photograph in their cards.
 - **Expected:** Each product card should display the image corresponding to its product.
 - **Account recorded in historical notes:** `problem_user`
-- **Evidence filename:** `image(20261021-185017).png`
+- **Evidence filename:** [image(20261021-185017).png](../evidence/capturas/image%2820261021-185017%29.png)
 - **Impact in the demo:** Images do not communicate the advertised products accurately.
 - **Reproducibility:** One screenshot evidence set; repetitions across distinct sessions not measured.
 - **Classification:** Observed demo-account anomaly; likely intentional behavior for QA training.
@@ -24,7 +24,7 @@ SauceDemo intentionally offers demo users with different, sometimes faulty behav
 - **Observed:** A browser alert states “Sorting is broken! This error has been reported to Backtrace.” In another captured image, “Price (low to high)” is selected, but visible prices include **$6.96, $67.43, $36.62, $92.59, $88.33, $17**, which are not ascending.
 - **Expected:** The selected sorting mode places prices in non-decreasing order with no blocking error.
 - **Account:** Historical notes refer to `error_user`; **the screenshots do not identify the active account**, so the exact account remains unverified.
-- **Evidence filenames:** `image(20261021-185720).png` and `image(20261021-190009).png`
+- **Evidence filenames:** [image(20261021-185720).png](../evidence/capturas/image%2820261021-185720%29.png) and [image(20261021-190009).png](../evidence/capturas/image%2820261021-190009%29.png)
 - **Impact in the demo:** Sorting cannot be trusted to present ordered products.
 - **Reproducibility:** Captured within one exploratory session; cross-session repeatability not measured.
 - **Classification:** Observed demo-account anomaly; possibly intentionally seeded.
@@ -37,4 +37,15 @@ SauceDemo intentionally offers demo users with different, sometimes faulty behav
 
 ## Evidence integrity
 
-Source screenshots are stored in the separate recovered evidence archive and are not yet committed to GitHub. Do not claim further bug reproduction or fixes without a test record.
+The original screenshots are now [published in GitHub](../evidence/capturas/) and linked above. Do not claim further bug reproduction or fixes without a test record.
+
+
+## Visual examples
+
+**Repeated product photograph**
+
+![Same dog image displayed for several products](../evidence/capturas/image%2820261021-185017%29.png)
+
+**Sorting-error dialogue**
+
+![Browser sorting error](../evidence/capturas/image%2820261021-185720%29.png)

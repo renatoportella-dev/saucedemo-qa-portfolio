@@ -1,7 +1,10 @@
 # Evidence
 
-Put real, sanitized screenshots here when executing test cases. Link them from the corresponding manual test case or bug report.
+The original **28 PNG screenshots from October 21, 2026** are published in [capturas/](capturas/).
 
-Suggested filename: `TC-012-cart-backpack-YYYY-MM-DD.png`
+- [28 screenshots with direct links](SCREENSHOT_INDEX.md)
+- [Manual exploratory session, 10 historical scenarios](../manual/SESSION_2026-10-21.md)
+- [Demo-account anomalies and limitations](../bugs/OBSERVED_DEMO_BEHAVIORS_2026-10-21.md)
+- [Verified Playwright CI execution](../reports/AUTOMATION_EXECUTION_2026-10-21.md)
 
-No screenshots have been uploaded to this folder by this assistant. Do not treat examples as execution evidence.
+**Evidence distinction:** The 10 historical exploratory scenarios, 20 later designed test cases, and six successful automated tests are different sets of work. A screenshot captures a visible state, not every preceding step.
