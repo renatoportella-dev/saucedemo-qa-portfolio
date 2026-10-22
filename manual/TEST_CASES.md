@@ -2,34 +2,34 @@
 
 **Application:** https://www.saucedemo.com/  
 **Author:** Renato Portella  
-**Status:** Test design complete, execution **NOT RUN**  
+**Status:** 20-case formal test design complete; earlier exploratory execution restored in [SESSION_2026-10-21.md](SESSION_2026-10-21.md)  
 **Default precondition:** App loads in a clean browser session.  
 **Accounts:** Use the public demo credentials shown on the application's login page; `standard_user` is used unless a case specifies otherwise.
 
-> Each scenario below is a **planned** test, not a claim of successful execution. Record actual results and evidence when running it.
+> A **prior manual session was already performed** on October 21, 2026 and its 10 scenario results are now [documented here](SESSION_2026-10-21.md). Eight formal case IDs have related historical screenshots. A historical screenshot does not necessarily prove every precondition of this later 20-case plan; therefore **Historical evidence** below means the scenario has previously observed evidence to reconcile, not an automatic formal PASS. **No matched evidence** means we have not yet mapped an archived screenshot, not necessarily that the user never tested it.
 
-| ID | Feature | Priority | Expected result | Execution |
+| ID | Feature | Priority | Expected result | Evidence mapping |
 |---|---|---|---|---|
-| TC-001 | Valid login | P0 | Inventory page opens | Not Run |
-| TC-002 | Invalid login | P1 | Error message; no login | Not Run |
-| TC-003 | Empty credentials | P1 | Required-field message | Not Run |
-| TC-004 | Locked-out account | P1 | Login denied with feedback | Not Run |
-| TC-005 | Logout | P1 | Returns to login | Not Run |
-| TC-006 | Inventory listing | P1 | Products and key details display | Not Run |
-| TC-007 | Product details | P2 | Details match selected product | Not Run |
-| TC-008 | Sort name A→Z | P2 | Names ascending | Not Run |
-| TC-009 | Sort name Z→A | P2 | Names descending | Not Run |
-| TC-010 | Sort price low→high | P2 | Prices ascending | Not Run |
-| TC-011 | Sort price high→low | P2 | Prices descending | Not Run |
-| TC-012 | Add product | P0 | Cart badge and contents update | Not Run |
-| TC-013 | Remove product | P1 | Item removed and badge updates | Not Run |
-| TC-014 | Add multiple products | P1 | All selected items in cart | Not Run |
-| TC-015 | Cart navigation | P1 | Cart contents persist through navigation | Not Run |
-| TC-016 | Empty checkout fields | P1 | Missing data is rejected | Not Run |
-| TC-017 | Valid customer details | P0 | Checkout overview opens | Not Run |
-| TC-018 | Checkout total | P1 | Item total and calculated total are consistent | Not Run |
-| TC-019 | Finish checkout | P0 | Order completion confirmation appears | Not Run |
-| TC-020 | Cancel checkout | P2 | Expected navigation; no order confirmation | Not Run |
+| TC-001 | Valid login | P0 | Inventory page opens | No matched evidence |
+| TC-002 | Invalid login | P1 | Error message; no login | Historical evidence |
+| TC-003 | Empty credentials | P1 | Required-field message | Historical evidence |
+| TC-004 | Locked-out account | P1 | Login denied with feedback | Historical evidence |
+| TC-005 | Logout | P1 | Returns to login | No matched evidence |
+| TC-006 | Inventory listing | P1 | Products and key details display | Historical evidence |
+| TC-007 | Product details | P2 | Details match selected product | No matched evidence |
+| TC-008 | Sort name A→Z | P2 | Names ascending | No matched evidence |
+| TC-009 | Sort name Z→A | P2 | Names descending | No matched evidence |
+| TC-010 | Sort price low→high | P2 | Prices ascending | Historical evidence |
+| TC-011 | Sort price high→low | P2 | Prices descending | No matched evidence |
+| TC-012 | Add product | P0 | Cart badge and contents update | No matched evidence |
+| TC-013 | Remove product | P1 | Item removed and badge updates | No matched evidence |
+| TC-014 | Add multiple products | P1 | All selected items in cart | No matched evidence |
+| TC-015 | Cart navigation | P1 | Cart contents persist through navigation | No matched evidence |
+| TC-016 | Empty checkout fields | P1 | Missing data is rejected | No matched evidence |
+| TC-017 | Valid customer details | P0 | Checkout overview opens | Historical evidence |
+| TC-018 | Checkout total | P1 | Item total and calculated total are consistent | Historical evidence |
+| TC-019 | Finish checkout | P0 | Order completion confirmation appears | Historical evidence |
+| TC-020 | Cancel checkout | P2 | Expected navigation; no order confirmation | No matched evidence |
 
 ## Detailed steps and assertions
 
